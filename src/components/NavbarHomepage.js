@@ -23,8 +23,8 @@ const NavbarHomepage = () => {
                     />
                   </div>
                   <div>
-                    <div className="hidden lg:block flex justify-center items-center ml-8 xl:ml-16 lg:mt-3">
-                      <ul className="flex flex-row items-cente lg:gap-x-12 xl:gap-x-12 text-[15px] lg:text-[13px] xl:text-[15px] uppercase">
+                    <div className="hidden lg:block flex justify-center items-center ml-8 xl:ml-14 lg:mt-3">
+                      <ul className="flex flex-row items-cente lg:gap-x-6 xl:gap-x-6 text-[15px] lg:text-[13px] xl:text-[15px] uppercase">
                         <li
                           onClick={() => setNavbar(!navbar)}
                           data-aos="fade-down"
@@ -32,7 +32,7 @@ const NavbarHomepage = () => {
                           data-aos-duration="600"
                         >
                           <a href="/">
-                            <div className="btn btn-one">home</div>
+                            <div className="btn-test from-bottom">home</div>
                           </a>
                         </li>
                         <li
@@ -42,7 +42,7 @@ const NavbarHomepage = () => {
                           data-aos-duration="1000"
                         >
                           <a href="/">
-                            <div className="btn btn-one">about</div>
+                            <div className="btn-test from-bottom">about</div>
                           </a>
                         </li>
                         <li
@@ -52,7 +52,7 @@ const NavbarHomepage = () => {
                           data-aos-duration="1400"
                         >
                           <a href="#faq">
-                            <div className="btn btn-one">faq</div>
+                            <div className="btn-test from-bottom">faq</div>
                           </a>
                         </li>
                         <li
@@ -61,8 +61,10 @@ const NavbarHomepage = () => {
                           data-aos-easing="linear"
                           data-aos-duration="1900"
                         >
-                          <a href="#tokenomics">
-                            <div className="btn btn-one">how to buy</div>
+                          <a href="/">
+                            <div className="btn-test from-bottom">
+                              how to buy
+                            </div>
                           </a>
                         </li>
                         <li
@@ -72,7 +74,9 @@ const NavbarHomepage = () => {
                           data-aos-duration="2400"
                         >
                           <a href="/">
-                            <div className="btn btn-one">whitepapers</div>
+                            <div className="btn-test from-bottom">
+                              whitepapers
+                            </div>
                           </a>
                         </li>
                       </ul>
@@ -127,57 +131,36 @@ const NavbarHomepage = () => {
               <div className="flex flex-col lg:flex-row items-center justify-center h-[80vh] lg:h-[100%]">
                 <div className="block lg:hidden">
                   <div>
-                    <div className={`flex justify-center items-center $`}>
+                    <div className="flex justify-center items-center">
                       <ul
                         className="flex flex-col lg:flex-row items-center lg:gap-x-4 xl:gap-x-8 gap-y-3 text-sm lg:text-xs xl:text-sm uppercase"
                         data-aos="zoom-in"
                       >
-                        <li
-                          className="box-1"
-                          onClick={() => setNavbar(!navbar)}
-                        >
+                        <li onClick={() => setNavbar(!navbar)}>
                           <a href="/">
-                            <div className="btn btn-one hover:text-light-red header-item1">
-                              home
-                            </div>
+                            <div className="btn-test from-bottom">home</div>
                           </a>
                         </li>
-                        <li
-                          className="box-1"
-                          onClick={() => setNavbar(!navbar)}
-                        >
+                        <li onClick={() => setNavbar(!navbar)}>
                           <a href="/">
-                            <div className="btn btn-one hover:text-light-red header-item2">
-                              about
-                            </div>
+                            <div className="btn-test from-bottom">about</div>
                           </a>
                         </li>
-                        <li
-                          className="box-1"
-                          onClick={() => setNavbar(!navbar)}
-                        >
-                          <a href="/">
-                            <div className="btn btn-one hover:text-light-red header-item3">
-                              faq
-                            </div>
+                        <li onClick={() => setNavbar(!navbar)}>
+                          <a href="#faq">
+                            <div className="btn-test from-bottom">faq</div>
                           </a>
                         </li>
-                        <li
-                          className="box-1"
-                          onClick={() => setNavbar(!navbar)}
-                        >
-                          <a href="#tokenomics">
-                            <div className="btn btn-one hover:text-light-red header-item4">
+                        <li onClick={() => setNavbar(!navbar)}>
+                          <a href="#">
+                            <div className="btn-test from-bottom">
                               how to buy
                             </div>
                           </a>
                         </li>
-                        <li
-                          className="box-1"
-                          onClick={() => setNavbar(!navbar)}
-                        >
+                        <li onClick={() => setNavbar(!navbar)}>
                           <a href="/">
-                            <div className="btn btn-one hover:text-light-red header-item6">
+                            <div className="btn-test from-bottom">
                               whitepapers
                             </div>
                           </a>
