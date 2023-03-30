@@ -24,70 +24,55 @@ const NavbarHomepage = () => {
                   </div>
                   <div>
                     <div className="hidden lg:block flex justify-center items-center ml-8 xl:ml-16 lg:mt-3">
-                      <ul className="flex flex-row items-cente lg:gap-x-12 xl:gap-x-14 text-[15px] lg:text-[13px] xl:text-[15px] uppercase">
+                      <ul className="flex flex-row items-cente lg:gap-x-12 xl:gap-x-12 text-[15px] lg:text-[13px] xl:text-[15px] uppercase">
                         <li
-                          className="box-1"
                           onClick={() => setNavbar(!navbar)}
                           data-aos="fade-down"
                           data-aos-easing="linear"
                           data-aos-duration="600"
                         >
                           <a href="/">
-                            <div className="btn btn-one hover:text-light-red header-item1">
-                              home
-                            </div>
+                            <div className="btn btn-one">home</div>
                           </a>
                         </li>
                         <li
-                          className="box-1"
                           onClick={() => setNavbar(!navbar)}
                           data-aos="fade-down"
                           data-aos-easing="linear"
                           data-aos-duration="1000"
                         >
                           <a href="/">
-                            <div className="btn btn-one hover:text-light-red header-item2">
-                              about
-                            </div>
+                            <div className="btn btn-one">about</div>
                           </a>
                         </li>
                         <li
-                          className="box-1"
                           onClick={() => setNavbar(!navbar)}
                           data-aos="fade-down"
                           data-aos-easing="linear"
                           data-aos-duration="1400"
                         >
                           <a href="#faq">
-                            <div className="btn btn-one hover:text-light-red header-item3">
-                              faq
-                            </div>
+                            <div className="btn btn-one">faq</div>
                           </a>
                         </li>
                         <li
-                          className="box-1"
                           onClick={() => setNavbar(!navbar)}
                           data-aos="fade-down"
                           data-aos-easing="linear"
                           data-aos-duration="1900"
                         >
                           <a href="#tokenomics">
-                            <div className="btn btn-one hover:text-light-red header-item4">
-                              how to buy
-                            </div>
+                            <div className="btn btn-one">how to buy</div>
                           </a>
                         </li>
                         <li
-                          className="box-1"
                           onClick={() => setNavbar(!navbar)}
                           data-aos="fade-down"
                           data-aos-easing="linear"
                           data-aos-duration="2400"
                         >
                           <a href="/">
-                            <div className="btn btn-one hover:text-light-red header-item6">
-                              whitepapers
-                            </div>
+                            <div className="btn btn-one">whitepapers</div>
                           </a>
                         </li>
                       </ul>
