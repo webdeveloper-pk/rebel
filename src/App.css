@@ -186,6 +186,46 @@ ul li a:hover:before {
   transform: scaleX(1);
 }
 
+/* navbar button */
+
+#button-navbar {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  border: 1px solid #242424;
+  backdrop-filter: blur(8.5px);
+  border-radius: 13px;
+}
+
+#button-navbar a {
+  position: relative;
+  left: 0;
+  transition: all 0.45s ease-Out;
+  letter-spacing: 1px;
+  color: #f2f2f2;
+}
+
+#dub-arrow {
+  width: 100%;
+  height: 100%;
+  left: -200px;
+  position: absolute;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.45s ease-Out;
+  bottom: 0;
+}
+
+#button-navbar:hover #dub-arrow {
+  left: 0;
+}
+
+#button-navbar:hover a {
+  left: 150%;
+}
+
 /* hero section */
 
 .hero-btn1 {
@@ -210,8 +250,8 @@ ul li a:hover:before {
   content: "";
   top: 0;
   left: 0;
-  width: 0;
-  height: 100%;
+  width: 100%;
+  height: 0%;
   background: #7e0000;
   transition: all 0.6s;
   color: #fff;
@@ -222,15 +262,10 @@ ul li a:hover:before {
 }
 
 .hero-btn1:hover:after {
-  width: 100%;
+  height: 100%;
   background: #7e0000;
   color: #fff;
 }
-
-/* .hero-btn1:hover {
-  background-color: #7e0000;
-  border: 0.1px solid #7e0000;
-} */
 
 @keyframes showHero {
   0% {

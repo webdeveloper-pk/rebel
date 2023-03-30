@@ -189,10 +189,12 @@ const NavbarHomepage = () => {
                 <div>
                   <button
                     onClick={() => setNavbar(!navbar)}
-                    className="navbar-btn1 text-white text-[15px] lg:text-[13px] xl:text-[15px] font-semibold py-4 xl:py-5 px-7 lg:px-5 xl:px-12 uppercase mt-6 lg:mt-1"
+                    id="button-navbar"
+                    className="text-white text-[15px] lg:text-[13px] xl:text-[15px] font-semibold py-4 xl:py-5 px-7 lg:px-5 xl:px-10 uppercase mt-6 lg:mt-0"
                     data-aos="fade-left"
                   >
-                    <span className="navbar-btn2">Launch dapp</span>
+                    <div id="dub-arrow">Launch</div>
+                    <a href="/">Launch Dapp</a>
                   </button>
                 </div>
               </div>

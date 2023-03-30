@@ -23,11 +23,11 @@ const Homepage = () => {
     <>
       <div className="overflow-body">
         {/* <div className="hero-bg-color"> */}
-        {/* <div className="hero-bg"> */}
-        <NavbarHomepage />
-        <Hero />
-        <PowerSection />
-        {/* </div> */}
+        <div className="hero-bg">
+          <NavbarHomepage />
+          <Hero />
+          <PowerSection />
+        </div>
         {/* </div> */}
         <StakingCoin />
         <PayementGateway />
