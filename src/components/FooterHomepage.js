@@ -4,23 +4,21 @@ import logo from "../assets/images/header-logo.png";
 const Footer = () => {
   return (
     <>
-      <footer className="footer-bg-color">
+      <footer className="footerWrapper">
         <div className="px-6 md:px-12 lg:px-16 homepage-container mx-auto">
-          <div className="flex flex-col xl:flex-row justify-between items-center mt-4 mb-1 py-6 md:py-8 uppercase gap-y-4 ">
+          <div className="flex flex-col xl:flex-row justify-between items-center mt-4 mb-1 py-6 uppercase gap-y-4 ">
             <div
               className="w-full md:[w-30%] flex justify-center xl:justify-start"
               data-aos="fade-right"
             >
-              <img
-                src={logo}
-                alt="logo"
-                className="w-[150px] md:w-[170px] h-auto"
-              />
+              <img src={logo} alt="logo" className="w-[100px] h-auto" />
             </div>
             <div className="w-full md:[w-30%] flex justify-center items-center gap-x-6 footer-text text-center">
-              <p className="text-[12px]">Privacy & Terms of Service</p>
+              <p className="text-[12px] footer-link">
+                Privacy & Terms of Service
+              </p>
               <div className="h-[15px] footer-custom-border"></div>
-              <p className="text-[12px]">cookie notices</p>
+              <p className="text-[12px] footer-link">cookie notices</p>
             </div>
             <div
               className=" w-full md:[w-30%] flex flex-row flex-wrap items-center justify-center xl:justify-end gap-x-4 gap-y-4"
@@ -201,11 +199,8 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <div
-        className="text-center flex justify-center items-center px-6 md:px-12 lg:px-16 py-3 homepage-container mx-auto text-xs text-white uppercase font-bold"
-        data-aos="zoom-in-up"
-      >
-        <p className="font-bold">© 2023 SHILLTOK. All rights reserved.</p>
+      <div className="text-center flex justify-center items-center px-6 md:px-12 lg:px-16 py-3 homepage-container mx-auto text-xs text-white uppercase font-bold">
+        <p className="font-bold">© 2023 REBEL. All rights reserved.</p>
       </div>
     </>
   );

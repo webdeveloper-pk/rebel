@@ -171,7 +171,7 @@ const NavbarHomepage = () => {
                           className="box-1"
                           onClick={() => setNavbar(!navbar)}
                         >
-                          <a href="#faq">
+                          <a href="/">
                             <div className="btn btn-one hover:text-light-red header-item3">
                               faq
                             </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const ContactSection = () => {
   return (
-    <div className="mt-8">
+    <div className="mt-8 mb-8">
       <div className="px-6 md:px-12 lg:px-16 homepage-container mx-auto">
         <div className="flex flex-col items-center">
           <p className="text-white uppercase text-2xl mb-4">Still Need help?</p>
