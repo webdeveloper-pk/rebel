@@ -24,7 +24,8 @@ const Faq = () => {
           <div>
             <Collapse
               ghost
-              // defaultActiveKey={["1"]}
+              accordion
+              defaultActiveKey
               expandIconPosition="end"
               expandIcon={({ isActive }) =>
                 isActive ? (
@@ -57,28 +58,7 @@ const Faq = () => {
                   </div>
                 </div>
               </Panel>
-            </Collapse>
-            <Collapse
-              ghost
-              expandIconPosition="end"
-              expandIcon={({ isActive }) =>
-                isActive ? (
-                  <div className="flex justify-end  pr-2 md:pr-8">
-                    <img src={dropup} alt="dropup" width="12px" height="12px" />
-                  </div>
-                ) : (
-                  <div className="flex justify-end pr-2 md:pr-8">
-                    <img
-                      src={dropdown}
-                      alt="dropdown"
-                      width="12px"
-                      height="12px"
-                    />
-                  </div>
-                )
-              }
-            >
-              <Panel header="What is Rebel Toke?" key="1">
+              <Panel header="What is Rebel Toke?" key="2">
                 <div className="flex flex-row items-start">
                   <div className="pb-6 text-white  lowercase">
                     Vestibulum porta, leo sed viverra egestas, eros dui lacinia
@@ -92,28 +72,7 @@ const Faq = () => {
                   </div>
                 </div>
               </Panel>
-            </Collapse>
-            <Collapse
-              ghost
-              expandIconPosition="end"
-              expandIcon={({ isActive }) =>
-                isActive ? (
-                  <div className="flex justify-end  pr-2 md:pr-8">
-                    <img src={dropup} alt="dropup" width="12px" height="12px" />
-                  </div>
-                ) : (
-                  <div className="flex justify-end  pr-2 md:pr-8">
-                    <img
-                      src={dropdown}
-                      alt="dropdown"
-                      width="12px"
-                      height="12px"
-                    />
-                  </div>
-                )
-              }
-            >
-              <Panel header="What is Rebel Toke?" key="1">
+              <Panel header="What is Rebel Toke?" key="3">
                 <div className="flex flex-row items-start">
                   <div className="pb-6 text-white  lowercase">
                     Vestibulum porta, leo sed viverra egestas, eros dui lacinia
@@ -127,28 +86,7 @@ const Faq = () => {
                   </div>
                 </div>
               </Panel>
-            </Collapse>
-            <Collapse
-              ghost
-              expandIconPosition="end"
-              expandIcon={({ isActive }) =>
-                isActive ? (
-                  <div className="flex justify-end pr-2 md:pr-8">
-                    <img src={dropup} alt="dropup" width="12px" height="12px" />
-                  </div>
-                ) : (
-                  <div className="flex justify-end pr-2 md:pr-8">
-                    <img
-                      src={dropdown}
-                      alt="dropdown"
-                      width="12px"
-                      height="12px"
-                    />
-                  </div>
-                )
-              }
-            >
-              <Panel header="What is Rebel Toke?" key="1">
+              <Panel header="What is Rebel Toke?" key="4">
                 <div className="flex flex-row items-start">
                   <div className="pb-6 text-white  lowercase">
                     Vestibulum porta, leo sed viverra egestas, eros dui lacinia
@@ -162,28 +100,7 @@ const Faq = () => {
                   </div>
                 </div>
               </Panel>
-            </Collapse>
-            <Collapse
-              ghost
-              expandIconPosition="end"
-              expandIcon={({ isActive }) =>
-                isActive ? (
-                  <div className="flex justify-end  pr-2 md:pr-8">
-                    <img src={dropup} alt="dropup" width="12px" height="12px" />
-                  </div>
-                ) : (
-                  <div className="flex justify-end  pr-2 md:pr-8">
-                    <img
-                      src={dropdown}
-                      alt="dropdown"
-                      width="12px"
-                      height="12px"
-                    />
-                  </div>
-                )
-              }
-            >
-              <Panel header="What is Rebel Toke?" key="1" className="">
+              <Panel header="What is Rebel Toke?" key="5">
                 <div className="flex flex-row items-start">
                   <div className="pb-6 text-white  lowercase">
                     Vestibulum porta, leo sed viverra egestas, eros dui lacinia
