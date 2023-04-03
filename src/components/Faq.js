@@ -19,13 +19,13 @@ const Faq = () => {
         </div>
         <div
           className="mt-8 lg:mt-14 flex flex-col md:px-8  lg:px-20 xl:px-40"
-          data-aos="zoom-in"
+          // data-aos="zoom-in"
         >
           <div>
             <Collapse
               ghost
               accordion
-              defaultActiveKey
+              defaultActiveKey="null"
               expandIconPosition="end"
               expandIcon={({ isActive }) =>
                 isActive ? (
