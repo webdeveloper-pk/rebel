@@ -29,11 +29,11 @@ const Faq = () => {
               expandIconPosition="end"
               expandIcon={({ isActive }) =>
                 isActive ? (
-                  <div className="flex justify-end pr-2 md:pr-8">
+                  <div className="flex justify-end pr-0 md:pr-6">
                     <img src={dropup} alt="dropup" width="12px" height="12px" />
                   </div>
                 ) : (
-                  <div className="flex justify-end pr-2 md:pr-8">
+                  <div className="flex justify-end pr-0 md:pr-6">
                     <img
                       src={dropdown}
                       alt="dropdown"
@@ -46,7 +46,7 @@ const Faq = () => {
             >
               <Panel header="What is Rebel Toke?" key="1">
                 <div className="flex flex-row items-start">
-                  <div className="pb-6 text-white lowercase">
+                  <div className="pb-6 text-white text-xs md:text-sm">
                     Vestibulum porta, leo sed viverra egestas, eros dui lacinia
                     ipsum, id pulvinar libero ligula id odio. Praesent
                     scelerisque, est sed porttitor pretium, mauris turpis
@@ -60,7 +60,7 @@ const Faq = () => {
               </Panel>
               <Panel header="What is Rebel Toke?" key="2">
                 <div className="flex flex-row items-start">
-                  <div className="pb-6 text-white  lowercase">
+                  <div className="pb-6 text-white text-xs md:text-sm">
                     Vestibulum porta, leo sed viverra egestas, eros dui lacinia
                     ipsum, id pulvinar libero ligula id odio. Praesent
                     scelerisque, est sed porttitor pretium, mauris turpis
@@ -74,7 +74,7 @@ const Faq = () => {
               </Panel>
               <Panel header="What is Rebel Toke?" key="3">
                 <div className="flex flex-row items-start">
-                  <div className="pb-6 text-white  lowercase">
+                  <div className="pb-6 text-white text-xs md:text-sm">
                     Vestibulum porta, leo sed viverra egestas, eros dui lacinia
                     ipsum, id pulvinar libero ligula id odio. Praesent
                     scelerisque, est sed porttitor pretium, mauris turpis
@@ -88,7 +88,7 @@ const Faq = () => {
               </Panel>
               <Panel header="What is Rebel Toke?" key="4">
                 <div className="flex flex-row items-start">
-                  <div className="pb-6 text-white  lowercase">
+                  <div className="pb-6 text-white text-xs md:text-sm">
                     Vestibulum porta, leo sed viverra egestas, eros dui lacinia
                     ipsum, id pulvinar libero ligula id odio. Praesent
                     scelerisque, est sed porttitor pretium, mauris turpis
@@ -102,7 +102,7 @@ const Faq = () => {
               </Panel>
               <Panel header="What is Rebel Toke?" key="5">
                 <div className="flex flex-row items-start">
-                  <div className="pb-6 text-white  lowercase">
+                  <div className="pb-6 text-white text-xs md:text-sm">
                     Vestibulum porta, leo sed viverra egestas, eros dui lacinia
                     ipsum, id pulvinar libero ligula id odio. Praesent
                     scelerisque, est sed porttitor pretium, mauris turpis
